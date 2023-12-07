@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderWidth: 1,
+    borderWidth: 0.6,
     borderColor: colors.INACTIVE_TEXT,
     paddingVertical: Platform.OS == 'ios' ? 10 : 0,
     borderRadius: 16,
